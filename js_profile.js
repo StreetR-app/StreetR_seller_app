@@ -136,8 +136,8 @@ function displayProfileDetails(profile) {
         if (typeof QRCode !== 'undefined') {
             new QRCode(sellerQRCodeDiv, {
                 text: menuUrl,
-                width: 128,
-                height: 128
+                width: 200,
+                height: 200
             });
         } else {
             sellerQRCodeDiv.innerHTML = `<p>QR Code library not loaded. URL: ${menuUrl}</p>`;
