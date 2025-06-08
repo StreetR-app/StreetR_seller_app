@@ -23,7 +23,7 @@ body {
 /* help-button*/
 
 .help-button {
-    background-color: #2E7D32; /*  dark Green color */
+    background-color: #a722ee; /* purple  color */
     color: white;
     border: none;
     padding: 8px 16px;
@@ -40,7 +40,7 @@ body {
 
 /* Header & Footer Theme */
 .app-header, .bottom-nav {
-    background-color: #4CAF50; /* Leaf Green */
+    background-color: #2E6F40; /* forest Green */
     color: white;
     padding: 15px;
     display: flex;
