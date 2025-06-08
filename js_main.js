@@ -179,3 +179,12 @@ supabase.auth.onAuthStateChange((event, session) => {
 document.addEventListener('DOMContentLoaded', () => {
     checkAuthState(); // Check auth state when DOM is ready
 });
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/StreetR_seller_app/service-worker.js')
+    .then((reg) => {
+      console.log('✅ Service Worker Registered!', reg);
+    })
+    .catch((err) => {
+      console.error('❌ Service Worker registration failed:', err);
+    });
+}
