@@ -1,0 +1,21 @@
+{
+  "name": "StreetR Seller App",
+  "short_name": "StreetR",
+  "start_url": "/StreetR_seller_app/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6600",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://assets.onecompiler.app/42q5e2pr5/43m4t5ddk/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://assets.onecompiler.app/42q5e2pr5/43m4t5ddk/1000130216.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
